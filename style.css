@@ -1,0 +1,367 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    min-height: 100vh;
+}
+
+.background {
+    display: flex;
+
+}
+
+.nav__bar__left {
+    background-color: yellow;
+    flex: 1 1 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #111536;
+}
+
+.main__block {
+    background-color: aqua;
+    flex: 1 1 69.4%;
+}
+
+.side__bar__right {
+    background-color: black;
+    flex: 1 1 25.6%;
+}
+
+.nav__1 {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.nav__2 {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav__1,
+.nav__2 {
+    width: 100%;
+}
+
+
+
+hr {
+    width: 77.7%;
+}
+
+.home__img {
+    position: relative;
+}
+
+.home__img img {
+    position: relative;
+    right: 4%;
+}
+
+.img__otstup {
+    margin-bottom: 20px;
+}
+
+.nav__1 div,
+.nav__2 div {
+    text-align: center;
+    width: 100%;
+    padding: 20% 0;
+
+}
+
+.nav__1 div:hover,
+.nav__2 div:hover {
+    display: flex;
+    justify-content: center;
+    border-right: .5vw solid #FA1F60;
+    background: #0D0F23;
+    transition: .2s ease-out;
+}
+
+.nav__1 div:last-child:hover {
+    margin-bottom: 6%;
+    transition: 0s;
+}
+
+/* main block */
+.main__block {
+    background: #0D0F23;
+    color: aliceblue;
+    /* display: flex; */
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.search__bar {
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    background: #161A42;
+    padding: 8px 20px;
+    width: 68%;
+    transition: .5s;
+    /* transform: rotate(180deg); */
+
+}
+
+.search__bar__active {
+    transition: all .5s;
+    background: #ffffff;
+    border: #0D0F23 solid 2px;
+    /* transform: rotate(360deg); */
+}
+
+.search__bar input {
+    outline: none;
+    border: none;
+    background: none;
+    color: aliceblue;
+    width: 100%;
+}
+
+.search__bar img {
+    width: 15px;
+    margin-right: 4%;
+}
+
+.eth {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background: #161A42;
+    padding: 6px 16px;
+}
+
+.eth img {
+    margin-right: 4px;
+}
+
+.list__view select {
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+
+
+}
+
+
+.list__view select option {
+    color: #FFF;
+    font-family: DM Sans;
+    background: #0D0F23;
+}
+
+.user__list {
+    display: flex;
+    align-items: center;
+
+}
+
+.nanas__block {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5%;
+}
+
+.nanas__block img {
+    margin-right: 5px;
+}
+
+.side__bar__right {
+    background: #111536;
+}
+
+.right__hr {
+    width: 90%;
+    background: rgba(198, 199, 202, 0.20);
+    margin: auto;
+}
+
+.details {
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.details span {
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.72px;
+}
+
+.container {
+    padding: 0 5%;
+}
+.search__bar input{
+    color: black;
+}
+.container{
+    padding: 0 5%;
+}
+.bcard{
+    display: flex;
+    border-radius: 16px;
+    border: 2px solid #28007A;
+    background: linear-gradient(162deg, #161A42 22.61%, rgba(22, 26, 66, 0.00) 118.29%);
+}
+.img__baba{
+    flex: 1 1 50%;
+}
+.card__content{
+    flex: 1 1 50%;
+    margin: 3% 4%;
+}
+.img__baba img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card__content h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
+.card__content h5{
+    color: #6C71AD;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171.429%; 
+    margin-bottom: 5%;
+}
+.btns{
+    display: flex;
+}
+.btns div{
+    padding: 2% 3%;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    border-radius: 24px;
+    background: #FA1F60;
+    box-shadow: 6px 10px 16px 0px rgba(92, 91, 246, 0.20);
+    margin-right: 3%;
+}
+.btn2{
+    border-radius: 16px;
+    border: 2px solid #28007A;
+    background: linear-gradient(162deg, #161A42 22.61%, rgba(22, 26, 66, 0.00) 118.29%);
+}
+.btn1 a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    text-decoration: none;
+}
+.btn2 a{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    text-decoration: none;
+}
+.bcard{
+    margin-bottom: 5%;
+}
+.top__sellers h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%; 
+    margin-bottom: 2.5%;
+}
+
+.chel1{
+    display: flex;
+}
+.chel1 .name{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+  
+    display: flex;
+}
+.sellers img{
+    border-radius: 30px;
+}
+.name .icon{         
+    display: flex;
+    align-items: flex-start;
+  
+}
+.balance{
+    
+    color: #787878;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 200%; 
+    display: flex;
+    align-items: center; 
+}
+.top__sellers{
+    background: #0D0F23;
+}
+.ch{
+    margin-left: 5%;
+}
+.sellers{
+    display: flex;
+}
+.chel1{
+    margin-right: 10%;
+}
+
+

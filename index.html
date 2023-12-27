@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NFT</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="nav__bar__left">
+            <div class="nav__1">
+                <div>
+                    <img src="img/logoNavLeft.svg" alt="">
+                </div>
+                <div class="home__img">
+                    <img src="img/Home.svg" alt="">
+                </div>
+                <div>
+                    <img src="img/Message.svg" alt="">
+                </div>
+                <div>
+                    <img src="img/Buy.svg" alt="">
+                </div>
+                <div>
+                    <img src="img/Grafik.svg" alt="">
+                </div>
+                <div>
+                    <img src="img/Clock.svg" alt="">
+                </div>
+            </div>
+            <hr>
+            <div class="nav__2">
+                <div>
+                    <img src="img/Wallet.svg" alt="">
+                </div>
+                <div>
+                    <img src="img/Friends.svg" alt="">
+                </div>
+                <div class="img__otstup">
+                    <img src="img/Setting.svg" alt="">
+                </div>
+                <div>
+                    <img src="img/LogOut.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="main__block">
+            <div class="container">
+                <div class="main">
+                    <div class="search__bar">
+                        <img src="img/Icon - Search (1).svg" alt="">
+                        <input type="text" placeholder="Search by creator, colectible or colection...">
+                    </div>
+                    <div class="eth">
+                        <img src="img/Icon - ETH.svg" alt="">
+                        <span>3,25 ETH</span>
+                    </div>
+                </div>
+                <div class="bcard">
+                    <div class="card__content">
+                        <h1>The Biggest NFT Marketplace</h1>
+                        <h5>Find lots of cool works to buy, sell or collect here</h5>
+                        <div class="btns">
+                            <div class="btn1"><a href="#">Explore</a></div>
+                            <div class="btn2"><a href="#">Create</a></div>
+                        </div>  
+                    </div>
+                    <div class="img__baba">
+                        <img src="Baba.png" alt="">
+                    </div>
+                </div>
+                <div class="top__sellers">
+                    <h2>Top Sellers</h2>
+                    <div class="sellers">
+                        <div class="chel1">
+                            <div class="imgch1"><img src="arab.png"></div>
+                            <div class="ch">
+                                <div class="name">@dicar<span class="icon"><img src="Icon - Verification.svg"></span></div>
+                                <div class="balance">$232,102</div>
+                            </div>
+                        </div>
+                        <div class="chel1">
+                            <div class="imgch1"><img src="person2.png"></div>
+                            <div class="ch">
+                                <div class="name">@astroo2<span class="icon"><img src="Icon - Verification.svg"></span></div>
+                                <div class="balance">$172,023</div>
+                            </div>
+                        </div>
+                        <div class="chel1">
+                            <div class="imgch1"><img src="person3.png"></div>
+                            <div class="ch">
+                                <div class="name">@micle<span class="icon"><img src="Icon - Verification.svg"></span></div>
+                                <div class="balance">$92,002</div>
+                            </div>
+                        </div>
+                        <div class="chel1">
+                            <div class="imgch1"><img src="person4.png"></div>
+                            <div class="ch">
+                                <div class="name">@11erorD.<span class="icon"><img src="Icon - Verification.svg"></span></div>
+                                <div class="balance">$88,024</div>
+                            </div>
+                        </div>
+                    </div>
+                 
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="side__bar__right">
+            <div class="container">
+
+                <div class="nanas__block">
+                    <div class="user__list">
+                        <img src="img/Nanas.svg" alt="">
+                        <div class="list__view">
+                            <select id="" name="">
+                                <option value="apple">Nanas</option>
+                                <option value="banana">Банан</option>
+                                <option value="orange">Апельсин</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="notification">
+                        <img src="img/Kolokol.svg" alt="">
+                    </div>
+                </div>
+
+                <hr class="right__hr">
+
+                <div class="details">
+                    <img src="img/Icon - Back.svg" alt="">
+                    <span>Detail</span>
+                    <img src="img/Icon - Dot.svg" alt="">
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        const search = document.querySelector('.search__bar');
+        const bodyElement = document.body;
+
+        search.addEventListener('click', () => {
+            search.classList.add('search__bar__active');
+            console.log('work');
+        });
+
+        bodyElement.addEventListener('click', (event) => {
+            // Проверяем, что клик был выполнен не на элементе .search__bar
+            if (!search.contains(event.target)) {
+                search.classList.remove('search__bar__active');
+                console.log(event.target);
+            }
+        });
+    </script>
+
+</body>
+
+</html>
